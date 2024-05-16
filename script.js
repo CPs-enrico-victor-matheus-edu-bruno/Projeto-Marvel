@@ -7,7 +7,7 @@ let index = 0;
 let time = 3000; //em (ms)
 
 function slideshow(){
-    document.getElementById('banner').src=imagens[index];
+    document.getElementById('imgbanner').src=imagens[index];
     index++;
 
     if(index == imagens.length){
