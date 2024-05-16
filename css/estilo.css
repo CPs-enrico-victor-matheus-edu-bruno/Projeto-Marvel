@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 34, 34);
+}
+header{
+    background: #000000;
+    display: flex;
+    
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#logo{
+    width: 20%;
+    height: 30%;
+   
+}
+
+.btn-login{
+    
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+#imgbanner{
+    width: 500px;
+    border-radius: 15px;
+}
