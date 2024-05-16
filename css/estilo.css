@@ -45,3 +45,14 @@ nav ul li{
     width: 500px;
     border-radius: 15px;
 }
+
+#cards{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+    
+}
+.imgcard{
+    width: 200px;
+    height: 220px;
+}
