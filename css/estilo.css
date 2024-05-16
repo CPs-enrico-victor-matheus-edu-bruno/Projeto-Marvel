@@ -7,16 +7,17 @@ body{
     background-color: rgb(34, 34, 34);
 }
 header{
+    width: 100%;
     background: #000000;
     display: flex;
-    
     justify-content: space-between;
+    align-items: center;
     border-radius: 15px;
 }
 
 nav ul{
     display: flex;
-    justify-content: center;
+    gap: 10rem;
 }
 
 nav ul li{
@@ -27,8 +28,7 @@ nav ul li{
 
 #logo{
     width: 20%;
-    height: 30%;
-   
+    height: 30%;  
 }
 
 .btn-login{
